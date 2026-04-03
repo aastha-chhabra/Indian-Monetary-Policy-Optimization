@@ -75,16 +75,24 @@ The fitness function weights: **60 % GDP · 30 % Inflation · 10 % Liquidity**
 
 | Column | Description |
 |---|---|
-| Year - Month | Monthly timestamp |
-| Policy Repo Rate | RBI benchmark lending rate (%) |
-| Cash Reserve Ratio | Mandatory bank reserve ratio (%) |
-| Statutory Liquidity Ratio | Mandatory liquid asset ratio (%) |
-| Interpolated GDP | Quarterly GDP interpolated to monthly (₹ Billion) |
-| CPI inflation (Base = 2012) | Consumer Price Index inflation (%) |
-| Non-food Credit | Bank credit growth proxy (% YoY) |
-| Exchange Rate of Indian Rupee | INR/USD month-end rate |
-| M3 (in crore) | Broad money supply |
-| … | Other RBI indicators (18 columns total) |
+| Year - Month | Monthly timestamp (YYYY-MM format) |
+| Crude Oil Price | Global crude oil price (USD per barrel) |
+| Exchange Rate of Indian Rupee (month end) | INR/USD exchange rate at month-end |
+| Non-food Credit | Bank credit excluding food credit; proxy for economic activity |
+| M3 (in crore) | Broad money supply (₹ crore) |
+| Cash Reserve Ratio | Percentage of deposits banks must hold with RBI (%) |
+| Statutory Liquidity Ratio | Percentage of deposits banks must maintain in liquid assets (%) |
+| Policy Repo Rate | RBI benchmark policy lending rate (%) |
+| Reverse Repo Rate | RBI rate for absorbing liquidity from banks (%) |
+| Bank Rate | Long-term RBI lending rate (%) |
+| Consumer Price Index for Industrial Workers | CPI-IW measuring retail inflation for industrial workers |
+| Wholesale Price Index Inflation | Inflation based on wholesale prices (%) |
+| Index of Industrial Production Growth rate | Growth rate of industrial output (%) |
+| Primary Articles (inflation) | Inflation rate of primary goods (%) |
+| Fuel and Power (inflation) | Inflation rate of fuel and energy components (%) |
+| Manufactured Products (Inflation) | Inflation rate of manufactured goods (%) |
+| CPI inflation (Base = 2012) | Consumer Price Index inflation (%) with base year 2012 |
+| Interpolated GDP | Quarterly GDP converted to monthly estimates (₹ Billion) |
 
 ---
 
