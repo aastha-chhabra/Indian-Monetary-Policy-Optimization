@@ -16,7 +16,7 @@ The fitness function weights: **60 % GDP · 30 % Inflation · 10 % Liquidity**
 
 | Rank | Algorithm | Fitness Score | Repo Rate | CRR | SLR | Time (s) |
 |------|-----------|--------------|-----------|-----|-----|----------|
-| 🥇 1 | **PSO** | **97.9697** | 5.9970 % | 5.7000 % | 18.0000 % | **0.13** |
+| 1 | **PSO** | **97.9697** | 5.9970 % | 5.7000 % | 18.0000 % | **0.13** |
 | 2 | ACO | 97.9553 | 6.0000 % | 5.6667 % | 18.0000 % | 0.47 |
 | 3 | GA | 97.9542 | 5.9981 % | 5.5010 % | 18.4973 % | 0.71 |
 | 4 | SA | 97.9510 | 6.0152 % | 5.6491 % | 18.0572 % | 0.23 |
@@ -142,10 +142,7 @@ The script will:
 
 | File | Description |
 |---|---|
-| `01_fitness_comparison.png` | Bar chart — fitness scores across algorithms |
-| `02_parameters_grouped.png` | Grouped bars — optimal Repo / CRR / SLR per algorithm |
-| `03_speed_vs_quality.png` | Scatter — fitness vs execution time |
-| `04_convergence_curves.png` | 2 × 2 convergence history per algorithm |
+| `speed_vs_quality.png` | Scatter — fitness vs execution time |
 
 ---
 
